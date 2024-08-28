@@ -56,7 +56,7 @@ Neovim's configurations are located under the following paths, depending on your
 <details><summary> Linux and Mac </summary>
 
 ```sh
-git clone https://github.com/happyApe/envym.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
+git clone https://github.com/lovesahaj/envym.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 </details>
@@ -66,13 +66,13 @@ git clone https://github.com/happyApe/envym.git "${XDG_CONFIG_HOME:-$HOME/.confi
 If you're using `cmd.exe`:
 
 ```
-git clone https://github.com/happyApe/envym.git %userprofile%\AppData\Local\nvim\
+git clone https://github.com/lovesahaj/envym.git %userprofile%\AppData\Local\nvim\
 ```
 
 If you're using `powershell.exe`
 
 ```
-git clone https://github.com/happyApe/envym.git $env:USERPROFILE\AppData\Local\nvim\
+git clone https://github.com/lovesahaj/envym.git $env:USERPROFILE\AppData\Local\nvim\
 ```
 
 </details>
