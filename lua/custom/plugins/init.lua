@@ -1,6 +1,10 @@
 -- You can add your own plugins here or in other files in this directory!
 return {
   {
+    'kevinhwang91/nvim-ufo',
+    dependencies = {'kevinhwang91/promise-async'},
+  },
+  {
     'monaqa/dial.nvim',
   },
   {
