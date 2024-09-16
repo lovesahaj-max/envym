@@ -1,8 +1,13 @@
 -- You can add your own plugins here or in other files in this directory!
 return {
   {
+    'pmizio/typescript-tools.nvim',
+    dependencies = { 'nvim-lua/plenary.nvim', 'neovim/nvim-lspconfig' },
+    opts = {},
+  },
+  {
     'kevinhwang91/nvim-ufo',
-    dependencies = {'kevinhwang91/promise-async'},
+    dependencies = { 'kevinhwang91/promise-async' },
   },
   {
     'monaqa/dial.nvim',
